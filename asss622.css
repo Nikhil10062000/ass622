@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: cadetblue;
+    
+    
+}
+h1{
+    display: block;
+    text-align: center;
+    color:brown;
+    width: 100%;
+}
+table{
+    background-color: black;
+    color: whitesmoke;
+    width: 50px;
+    height: 60px;
+}
+td{
+    color: whitesmoke;
+    background-color: black;
+    padding-left: 10px;
+    border-radius: 50px;
+    
+}
+tr{
+    padding-left: 50px;
+}
+td:hover{
+    border: 1px solid;
+    background-color:whitesmoke;
+    color: black;
+    
+    
+}
+
+span{
+   width: 10%;
+   display: none;
+}
